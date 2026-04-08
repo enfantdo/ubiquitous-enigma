@@ -1,0 +1,39 @@
+// Prebake script
+//
+// This is code that is loaded before your pattern is run.
+// You can use it to define custom functions to use in any pattern.
+// 
+// This is an initial example script. You can edit it to add 
+// your own funtions.
+//
+// To use a script shared by some other user you can use
+// the import-button or paste the script in this editor.
+
+const ratchet = register('ratchet', (pat) => pat.sometimes(ply(2)))
+
+const startHydra = async () => {
+  await initHydra({ detectAudio: false })
+  s0.initImage('https://d2w9rnfcy7mm78.cloudfront.net/43450831/original_566a36ebfad9781b0960e3f5430f7ff8.jpg?1770634321?bc=0')
+  //s0.initCam(1)
+  src(s0).out(o1)                             
+  src(s0).pixelate(320, 24).out(o2)
+  src(o1)    
+  .blend(src(o2), H(sine.slow(1).range(0, 1))) 
+  .contrast(0.5)
+
+
+
+
+
+
+  .out(o0)
+}
+
+const ki = s("bd")
+
+
+
+
+
+
+
