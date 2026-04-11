@@ -1,5 +1,5 @@
 {
-  "_base": "http://localhost:5432/",
+  "_base": "https://raw.githubusercontent.com/enfantdo/ubiquitous-enigma/main/",
   "merah-chords": [
     "merah/dub-chords-from-the-archives-samples/05%20-%205.mp3",
     "merah/dub-chords-from-the-archives-samples/06%20-%206.mp3",
